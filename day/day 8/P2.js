@@ -1,3 +1,3 @@
 // JS Variables
-let name = "Rakesh";
+let name = "Subramanya S";
 console.log(name)
