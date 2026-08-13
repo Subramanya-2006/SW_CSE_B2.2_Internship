@@ -13,8 +13,8 @@ console.log(message);
 
 // 2 let 
 let name = "Subramanya S";
-// let name = "Rakesh"; //not allowed to redeclare with the same name
-name = "Sumanth" //reassign is possible
+// let name = "Subramanya S"; //not allowed to redeclare with the same name
+name = "Santosh" //reassign is possible
 console.log(name)
 
 // // // Scope behavior: let is block-scoped
