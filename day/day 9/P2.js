@@ -53,7 +53,6 @@ const colors=["red","green","blue","yellow"];
 colors.splice(2,1);
 console.log(colors);
 colors.splice(1,0,"orange","purple");
-console.log(colors);
 
 console.log("slice() and spread (...)");
 const nums1=[10,20,30,40,50];
@@ -108,3 +107,19 @@ const user = users.find(student=>student.id === 2);
 console.log(user);
 const index = users.findIndex(student=>student.name === "Bipin");
 console.log(index);
+console.log(index);
+
+// Transforming Arrays 🌟
+const nums3=[10,20,30,40,50];
+
+console.log("Map");
+const double = nums3.map(n=>n*2);
+console.log(double);
+
+console.log("filter");
+const greaterThan30=nums3.filter(n=>n>30);
+console.log(greaterThan30);
+
+console.log("reduce");
+const sumOfArray=nums3.reduce((acc,curr)=>acc+curr,0);
+console.log(sumOfArray);
