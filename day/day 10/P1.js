@@ -9,7 +9,7 @@ console.log(hasEven);
 // Sorting and reversing
 // sort
 const nums2 = [10,2,5,20];
-const names = ["Subramanya","Bipin","Santosh","Veena","Keerthi"];
+const names = ["Rakesh","Bipin","Suresh","Ankita","Keerthi"];
 console.log(names);
 console.log(names.sort());
 nums2.sort();
@@ -66,3 +66,8 @@ return x + y + z;
 }
 const nums3 = [1, 2, 3];
 console.log(sum(...nums3)); // 6
+
+// Unique values:
+const arr2 = [1,8,2,3,3,4,5,4,6,4,7,8];
+const unique = [...new Set(arr2)];
+console.log(unique);
