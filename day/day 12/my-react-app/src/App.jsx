@@ -1,11 +1,10 @@
-
-
+import { Welcome } from "./components/P1.jsx";
 function App() {
-  
-
   return (
-    <h1>Hello My First React App</h1>
-  )
+        <div>
+        <Welcome />
+    </div>
+  );
 }
 
-export default App
+export default App;
