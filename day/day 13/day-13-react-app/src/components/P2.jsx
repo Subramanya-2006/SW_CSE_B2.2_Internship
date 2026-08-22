@@ -1,4 +1,4 @@
-export function ProductCard({name,price,image}) {
+export function ProductCard({name="New Product",price,image}) {
     return(
         <div className="card">
             <img src={image} alt={name} />
@@ -6,4 +6,3 @@ export function ProductCard({name,price,image}) {
             <h6>Rs. {price}</h6>
         </div>
     )
-}
